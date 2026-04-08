@@ -8,7 +8,7 @@ from datetime import datetime
 # Load environment variables
 load_dotenv()
 
-app = FastAPI(title="Daily AI News API")
+app = FastAPI(title="World of AI API")
 
 # Configure CORS
 app.add_middleware(
@@ -31,7 +31,7 @@ agent = NewsAgent()
 @app.get("/")
 async def root():
     return {
-        "message": "Daily AI News API is running",
+        "message": "World of AI API is running",
         "cached_timeframes": list(_cached_news.keys())
     }
 

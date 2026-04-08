@@ -94,7 +94,7 @@ function App() {
         <div className="header-content">
           <div className="logo">
             <Newspaper size={32} className="logo-icon" />
-            <h1>Daily AI News</h1>
+            <h1>World of AI</h1>
           </div>
           <div className="header-actions">
             <div className="tabs">
@@ -185,7 +185,7 @@ function App() {
       </main>
 
       <footer className="app-footer">
-        <p>© 2026 Daily AI News Agent. Powered by Tavily & Gemini 3.1.</p>
+        <p>© 2026 World of AI. Powered by Tavily & Gemini 3.1.</p>
       </footer>
     </div>
   )
